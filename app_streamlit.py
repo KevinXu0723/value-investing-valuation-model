@@ -7,8 +7,8 @@ from core import (
     apply_margin_of_safety,
 )
 
-st.set_page_config(page_title="股票估值分析器（OCF版）", page_icon="📈", layout="centered")
-st.title("📈 股票估值分析器（OCF版，N阶段可变）")
+st.set_page_config(page_title="价值投资估值工具", page_icon="📈", layout="centered")
+st.title("📈 股价值投资估值工具（N阶段可变）")
 
 # ===================== 公共输入 =====================
 ocf_ps0 = st.number_input("当前每股经营性净现金流 OCF/share", value=2.0, step=0.1, format="%.4f")
